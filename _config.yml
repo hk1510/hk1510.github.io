@@ -12,7 +12,7 @@ title                    : "Harshil Kotamreddy"
 title_separator          : "-"
 name                     : &name "Harshil Kotamreddy"
 description              : &description "Harshil's Website"
-url                      : https://hk1510.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://harshilkotamreddy.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "hk1510/hk1510.github.io"
 
