@@ -8,26 +8,37 @@
 }
 
 html {
-    background-color: #FFF8E1;
+    padding: 20vw;
+    box-sizing: border-box;
+    background-color: #F8F8F8;
     display: grid;
     place-items: center;
     height: 100vh;
 }
 
-#main {
-    padding-left: 10vw;
+#intro {
     box-sizing: border-box;
-    width: 1024px;
-    height: 50vh;
-    border: 4px solid transparent;
-    border-color: #424242;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(to right,
-            #424242 2%,
-            transparent 2%,
-            transparent 98%,
-            #424242 98%);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    border-bottom: 2px solid black;
+}
+
+#name {
+    font-size: 22px;
+}
+
+#summary {
+    font-size: 16px;
+}
+
+a {
+    color: black;
+    text-decoration-style: dashed;
+}
+
+a:hover {
+    color: #626262;
+}
+
+#content {
+    text-align: center;
+    margin-top: 10vh;
 }
