@@ -3,17 +3,41 @@
     src: url('/fonts/librebaskerville.woff2') format('woff2');
 }
 
+:root {
+    --main-horizontal-padding: 20px;
+    --main-vertical-padding: 25vh;
+    --main-max-width: 935px;
+}
+
+@media all and (max-width: 649px) {
+    :root {
+        --main-content-padding: 16px;
+        --main-vertical-padding: 16px;
+    }
+}
+
 * {
+    color: #1a1a1a;
     font-family: 'LB';
 }
 
 html {
-    padding: 20vw;
+    background-color: #f9f9f9;
+    border: 8px solid black;
     box-sizing: border-box;
-    background-color: #F8F8F8;
-    display: grid;
-    place-items: center;
     height: 100vh;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    padding: var(--main-vertical-padding) var(--main-horizontal-padding);
+    max-width: var(--main-max-width);
+    box-sizing: border-box;
 }
 
 #intro {
@@ -22,16 +46,16 @@ html {
 }
 
 #name {
-    font-size: 22px;
+    font-size: 1.5rem;
 }
 
 #summary {
-    font-size: 16px;
+    font-size: 1rem
 }
 
 a {
     color: black;
-    text-decoration-style: dashed;
+    text-underline-offset: 0.1em;
 }
 
 a:hover {
@@ -40,5 +64,5 @@ a:hover {
 
 #content {
     text-align: center;
-    margin-top: 10vh;
+    margin-top: 20vh;
 }
