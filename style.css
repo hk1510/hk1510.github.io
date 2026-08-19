@@ -7,6 +7,9 @@
     --main-horizontal-padding: 20px;
     --main-vertical-padding: 25vh;
     --main-max-width: 935px;
+    --font-color: #1a1a1a;
+    --font-hover-color: #524b42;
+    --page-bg-color: #f2ebe2;
 }
 
 @media all and (max-width: 649px) {
@@ -17,13 +20,22 @@
 }
 
 * {
-    color: #1a1a1a;
     font-family: 'LB';
 }
 
+h1 {
+    color: var(--font-color);
+    line-height: 1.5;
+}
+
+p {
+    color: var(--font-color);
+    line-height: 1.5;
+}
+
 html {
-    background-color: #f9f9f9;
-    border: 8px solid black;
+    background-color: var(--page-bg-color);
+    border: 8px solid var(--font-color);
     box-sizing: border-box;
     height: 100vh;
 }
@@ -42,7 +54,7 @@ main {
 
 #intro {
     box-sizing: border-box;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid var(--font-color);
 }
 
 #name {
@@ -59,7 +71,7 @@ a {
 }
 
 a:hover {
-    color: #626262;
+    color: var(--font-hover-color);
 }
 
 #content {
