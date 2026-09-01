@@ -12,6 +12,7 @@
     --font-hover-color: #85012b;
     --page-bg-color: #f1f3f8;
     --grid-spacing: 1.5rem;
+    --line-height: 1.5;
     --image-dims: 9rem;
     --side-tab-display: block;
 }
@@ -37,12 +38,12 @@
 
 h1 {
     color: var(--font-color);
-    line-height: var(grid-spacing);
+    line-height: var(--line-height);
 }
 
 p {
     color: var(--font-color);
-    line-height: var(grid-spacing);
+    line-height: var(--line-height);
 }
 
 html {
@@ -81,7 +82,7 @@ main {
 a {
     color: var(--link-color);
     text-underline-offset: 0.1rem;
-    line-height: var(--grid-spacing);
+    line-height: var(--line-height);
 }
 
 a:hover {
