@@ -36,11 +36,9 @@
     font-family: 'LB';
 }
 
-h1 {
-    color: var(--font-color);
-    line-height: var(--line-height);
-}
-
+h1,
+h2,
+h3,
 p {
     color: var(--font-color);
     line-height: var(--line-height);
